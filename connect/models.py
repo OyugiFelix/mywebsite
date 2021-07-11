@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+# Creating inquiry models .
+class Comment(models.Model):
+    name = models.CharField(max_length=55)
+    email= models.EmailField()
+    phone =models.IntegerField()
+    message =models.TextField(max_length=2088)

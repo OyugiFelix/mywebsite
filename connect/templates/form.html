@@ -1,4 +1,10 @@
+{% load static %}
 <html>
+    <head>
+       <link rel = "stylesheet" type = "text/css" href="{% static 'form.css' %}"> 
+    </head>
     <h3>This is the view for the form</h3>
-    <p>This is going to be the view for the form in which we are goin to put  the form</p>
+    <p>This is going to be the view for the form in which we are goin 
+    to put  the form</p>
+    <p>The name of the sender is {{name}}</p>
 </html>
