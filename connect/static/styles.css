@@ -181,9 +181,9 @@
 .img{
     width: 100px;
     height: 100px;
-    background: red;
+   
     position: absolute;
-    right: 12px;
+    right: 18px;
     opacity: .3;
     border-radius: 50%;
 }
