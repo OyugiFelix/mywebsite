@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: rgb(140, 15, 15);
+    background: rgb(107, 12, 12);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -33,7 +33,7 @@ body{
     justify-content: space-between;
     display: flex;  
     border-radius: 0 0 15px 15px ;
-    border: 3px solid rgb(140, 5, 5);
+    border: 2px solid rgb(140, 5, 5);
 }
 .navlinks ul{
    
@@ -103,14 +103,14 @@ body{
 
 }
 .main{
-    background-color: red;
+   
     height: 85vh;
     margin-bottom: 2px;
     padding-top: 2px;
     bottom: 0;
     position: absolute;
     width: 97vw;
-    border: 2px solid green;
+    border: 2px solid rgb(104, 5, 5);
     border-radius: 10px;
     text-align: center;
     align-items: center;
@@ -120,7 +120,6 @@ body{
 
 }
 .home{
-    background-color: greenyellow;
     height: 50%;
     width: 96vw;
     text-align: center;
@@ -162,16 +161,16 @@ body{
     align-items: center;
     display: flex;
     text-decoration: none;
-    font-size: 14px;  
+    font-size: 12px;  
     color: rgb(192, 7, 7);
     border-radius: 15px;
-    width: 98%;
+    width: 100%;
+    padding: 5px;
     box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4),
                 2px 2px 3px rgba(0, 0, 0, 0.3);
     
 }
 .display{
-    background-color: yellow;
     height: 48%;
     text-align: center;
     justify-content: center;
@@ -181,39 +180,44 @@ body{
 
 }
 .screen{
-    background-color: yellowgreen;
+    background-color: rgb(182, 158, 158);
     width: 80vw;
-    height: 80%;
+    height: 85%;
+    box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.03),
+            4px 4px 6px rgba(0, 0, 0, 0.1),
+            inset -3px -3px 4px rgba(255, 255, 255, 0.7),
+            inset 2px 2px 5px rgba(0, 0, 0,.9);
 }
 .controls ul{
-    background-color: yellowgreen;
-    width: 60vw;
+    width: 70vw;
     height: 10%;
     text-align: center;
     justify-content: space-between;
     align-items: center;
     display:flex;
+    margin-bottom: 20px;
+    margin-right: 33px;
 
 }
 .controls ul li{
-    
-    text-align: center;
-    
+    text-align: center; 
     align-items: center;
     display: inline-block;
     font-weight: 300;
     list-style: none;
+  
    
 
 }
 .controls ul li button{
-    background-color: tomato;
     width: 20vw;
+    color: rgb(158, 5, 5);
 }
 #enquiry{
     background-color: tomato;
     width: 35vw;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    
 }
 
 @media (max-width:599px) {
@@ -228,8 +232,7 @@ body{
         border-radius: 15px;
         box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4),
                     2px 2px 3px rgba(0, 0, 0, 0.3);
-    
-        
+         
     }
     
 }
