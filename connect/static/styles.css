@@ -20,7 +20,8 @@ body{
     position: relative;   
 }
 .navbar{
-    height: 56px;
+    
+    height: 60px;
     width: 96vw;
     position: absolute;
     top: 0;
@@ -28,23 +29,29 @@ body{
     align-items: center;
     justify-content: space-between;
     display: flex;  
+    border-radius: 0 0 15px 15px ;
+    border: 3px solid rgb(140, 5, 5);
 }
 .navlinks ul{
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
+   
+    display: flex; 
+    justify-content: space-between;
     width: 50vw;
+    margin-top: 10px;
+    
+
 }
 .navlinks{
-    width: 50vw;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+   
+    width: 55vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;display: flex;
+  
 }
  
 .navlinks ul li{
-    width: 10vw;
+    width: 17vw;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -67,4 +74,22 @@ body{
     font-size: 15px;  
     color: rgb(192, 7, 7);
     
-} 
+}  
+@media (max-width:599px) {
+    .navlinks ul li{
+        background-color: red;
+        width: 18vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        font-weight: 300;
+        list-style: none;
+        border-radius: 15px;
+        box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4),
+                    2px 2px 3px rgba(0, 0, 0, 0.3);
+    
+        
+    }
+    
+}
