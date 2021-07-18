@@ -170,10 +170,54 @@ body{
                 2px 2px 3px rgba(0, 0, 0, 0.3);
     
 }
+.display{
+    background-color: yellow;
+    height: 48%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.screen{
+    background-color: yellowgreen;
+    width: 80vw;
+    height: 80%;
+}
+.controls ul{
+    background-color: yellowgreen;
+    width: 60vw;
+    height: 10%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+
+}
+.controls ul li{
+    
+    text-align: center;
+    
+    align-items: center;
+    display: inline-block;
+    font-weight: 300;
+    list-style: none;
+   
+
+}
+.controls ul li button{
+    background-color: tomato;
+    width: 20vw;
+}
+#enquiry{
+    background-color: tomato;
+    width: 40vw;
+    margin-bottom: 10px;
+}
 
 @media (max-width:599px) {
     .navlinks ul li{
-        background-color: rgb(237, 166, 167);
         width: 18vw;
         text-align: center;
         justify-content: center;
