@@ -5,4 +5,4 @@ class Comment(models.Model):
     name = models.CharField(max_length=55)
     email= models.EmailField()
     phone =models.IntegerField()
-    message =models.TextField(max_length=2088)
+    message =models.TextField()

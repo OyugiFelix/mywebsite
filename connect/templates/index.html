@@ -41,7 +41,7 @@
           <div class="about">
             <h2>Hi!</h2>
             <p>I'm <strong>Oyugi.F</strong> <br> an <strong>Educator</strong> and a <strong>Software Developer.</strong></p>
-            <p>IT enthusiast driven by increasing demand of inventive mindness, studiousness and passion for teaching.</p>
+            <p>IT enthusiast driven by increasing demand for inventive mindness, studiousness and passion for teaching.</p>
           </div>
         </div>
         <div class="display">
@@ -58,6 +58,25 @@
           <button id = "enquiry">Enquiry</button>
         </div>
       </div>
+    </div>
+    <div class="comment-form">
+     <div class="form-body">
+      {% block content %}
+
+         <div class="container"> 
+         <h4>ENQUIRY/COMMENT FORM</h4>
+            <div class="fom">
+                <form method = "post" action=".">
+                    {% csrf_token %}
+                    {{ form.as_p}}
+                    <input type="submit" value = 'Submit'/>
+                </form>  
+            </div>
+            <a href="{% url 'index.html' %}">Go Back</a>   
+        </div>
+
+    {% endblock content %}
+     </div>
     </div>
   </body> 
 </html>

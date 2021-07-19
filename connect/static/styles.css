@@ -9,6 +9,32 @@ body{
     justify-content: center;
     display: flex;
 }
+.comment-form{
+    background: red;
+    width: 60vw;
+    height: 80vh;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-body{
+    width: 80%;
+    height: 90%;
+}
+form{
+ 
+    color: greenyellow;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
 .content{
     background: #cad0c0;
     height: 99vh;
@@ -132,6 +158,8 @@ body{
     height: 40vh;
     border: 2px solid rgb(161, 2250, 161);
     border-radius: 15px;
+    color: rgb(104, 5, 5);
+    font-size: 14px;
 
     
 }
