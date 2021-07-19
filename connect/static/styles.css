@@ -8,14 +8,15 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
+   
 }
 .comment-form{
-    background: red;
+    background: rgb(208, 62, 62);
     width: 60vw;
-    height: 80vh;
+    height: 70vh;
     position: absolute;
-    top: 40px;
-    z-index: 1;
+    top: 50px;
+    z-index: -2;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -25,15 +26,25 @@ body{
 .form-body{
     width: 80%;
     height: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 form{
  
     color: greenyellow;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 
 
+}
+#back{
+    width: 20vw;
 }
 .content{
     background: #cad0c0;
