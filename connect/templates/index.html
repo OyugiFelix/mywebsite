@@ -21,7 +21,11 @@
     <div class="content">
       <div class="navbar">
         <div class="logo">F</div>
-        <div class="watch">watch</div>
+        <div class="watch">
+          <small>Home</small>
+          <small>{{my_time}}</small>
+         
+        </div>
         <div class="navlinks">
            <ul> 
               <li><a href=".">Gallery</a></li>
@@ -47,8 +51,31 @@
         </div>
         <div class="display">
           <div class="screen">
-           <div class="prof">Proficiency</div>
-           <div class="services">Services offer</div>
+           <div class="prof">
+           
+            <ul>
+              <li>Tutoring ......................85%</li>
+              <li>Htm .............................85%</li>
+              <li>css ..............................80%</li>
+              <li>Figma ..........................80%</li>
+              <li>Django ........................70%</li>
+              <li>Python .........................60%</li>
+              <li>Javascript ....................60%</li>
+              <li>Postgress ...................40%</li>
+              
+            </ul>
+           </div>
+           <div class="services">
+           
+              <ul>
+                <li>Tutoring </li>
+                <li>App/Web design</li>
+                <li>App/Web Development</li>
+                <li>Video Production</li>
+                <li>Graphic designs</li>
+              </ul>
+           
+           </div>
           </div>
           <div class="controls">
             <ul>
@@ -61,21 +88,21 @@
       </div>
     </div>
     <div class="comment-form">
-      <div class="form-body">
+      
         {% block form_body %}
 
-              <h6>ENQUIRY/COMMENT </h6>
-              <div class="fom">
-                  <form method = "post" action=".">
-                      {% csrf_token %}
-                      {{ form.as_p}}
-                      <input type="submit" value = 'Submit'/>
-                  </form>  
-              </div>
-              <button onclick="home()" id = "back">Back</button>
+        <h6>ENQUIRY/COMMENT </h6>
+        <div class="fom">
+            <form method = "post" action=".">
+                {% csrf_token %}
+                {{ form.as_p}}
+                <input type="submit" value = 'Submit'/>
+            </form>  
+        </div>
+        <button onclick="home()" id = "back">Back</button>
 
         {% endblock form_body %}
-      </div>
+   
     </div>
   
   </body> 
