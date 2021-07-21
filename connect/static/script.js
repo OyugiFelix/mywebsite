@@ -12,3 +12,15 @@ function home(){
     let body = document.querySelector('.content');
     body.style.opacity = "1";
 }
+function skillOn(){
+    let skill = document.querySelector('.skills');
+    skill.style.zIndex = "-7";
+    let service = document.querySelector('.service');
+    body.style.opacity = "1";
+}
+function serviceOn(){
+    let skill = document.querySelector('.skills');
+    skill.style.zIndex = "-7";
+    let service = document.querySelector('.service');
+    body.style.opacity = "1";
+}
