@@ -13,9 +13,9 @@ function home(){
     body.style.opacity = "1";
 }
 function skillOn(){
-    let skill = document.querySelector('.skills');
+    let skill = document.querySelector('.prof');
     skill.style.zIndex = "-7";
-    let service = document.querySelector('.service');
+    let service = document.querySelector('.prof ul');
     body.style.opacity = "1";
 }
 function serviceOn(){

@@ -60,20 +60,11 @@
         <div class="display">
           <div class="screen">
            <div class="prof">
-            <ul>
-
-              <li>Tutoring ....85%</li>
-              <li>Htm ...........70%</li>
-              <li>css ............70%</li>
-              <li>Figma ........70%</li>
-              <li>Django .......70%</li>
-              <li>Python .......60%</li>
-              <li>Javascript ...60%</li>
-              <li>Postgress ...40%</li>
-              
-            </ul>
+              reading 
+              sleeping 
+              diging
            </div>
-           <div class="services">
+           {% comment %} <div class="services">
               <ul>
                 <li>Tutoring </li>
                 <li>App/Web design</li>
@@ -81,12 +72,12 @@
                 <li>Video Production</li>
                 <li>Graphic designs</li>
               </ul>
-           </div>
+           </div> {% endcomment %}
           </div>
           <div class="controls">
             <ul>
-              <li><button id = "skills">skills</button></li>
-              <li><button id = "service">services</button></li>
+              <li><button onclick = "skillOn()" id = "skills">skills</button></li>
+              <li><button onclick ="serviceOn()" id  = "service">services</button></li>
             </ul>
           </div>
           <button onclick="loadForm()" id = "enquiry">Let's Connect</button>
