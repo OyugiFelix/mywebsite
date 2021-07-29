@@ -299,7 +299,58 @@ img{
     color: white;
     
 }
+.prof{
+    background: rgba(187, 21, 21, 0.549);
+    animation: bounce 10s linear infinite;
+    width: 60%;
+    opacity: 2;
+   
 
+}
+span{
+    width: 60%;
+}
+#skills{
+    animation: blink 2s infinite;
+}
+@keyframes blink{
+    0%{
+        background: red;
+        opacity: 0;
+        
+      
+
+    }
+    
+    100%{
+       
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+        
+      
+
+    }
+    
+    20%{
+        transform: translateY(0);
+        opacity: .8;
+    }
+    50%{
+       
+        transform: rotateX(60deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-20vh);
+        opacity: 0;
+    }
+}
 @media (max-width:599px) {
     .navlinks ul li{
         width: 18vw;

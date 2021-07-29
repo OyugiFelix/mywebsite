@@ -14,13 +14,17 @@ function home(){
 }
 function skillOn(){
     let skill = document.querySelector('.prof');
-    skill.style.zIndex = "-7";
+    if(skill.style.zIndex =="2"){
+        skill.style.zIndex = "-2";
+    }
+    else{
+        skill.style.zIndex = "2";
+    }
+    
     let service = document.querySelector('.prof ul');
     body.style.opacity = "1";
 }
-function serviceOn(){
+function notice(){
     let skill = document.querySelector('.skills');
-    skill.style.zIndex = "-7";
-    let service = document.querySelector('.service');
-    body.style.opacity = "1";
+    alert("I'm sorry!! This page is still Under implementation")
 }

@@ -28,8 +28,8 @@
         </div>
         <div class="navlinks">
            <ul> 
-              <li><a href=".">Gallery</a></li>
-              <li><a href=".">Blogs</a></li>
+              <li><a onclick ="notice()" href="">Gallery</a></li>
+              <li><a onclick ="notice()"   href="">Blogs</a></li>
             </ul>
         </div>
       </div>
@@ -48,47 +48,36 @@
              {% comment %} <img src="{% static 'images/avatarprofile.png' %}" alt="">  {% endcomment %}
             <p>I'm <strong>Felix,</strong>  <br>
              <strong>Full-stack Developer & Tutor</strong> </p>
-            <p>a Developer who loves his work. Passionate about coding with a blend of design, I care so much about
-             user experience and always willing to learn and share knowlwdge and skills.
+            <p>a Developer who loves his work and passionate about coding with a blend of design. I care so much about
+             user experience and always willing to learn and share knowledge & skills.
               <br>
              In spite of being familiar with frameworks like Vue,  most of my websites are primarily hand-coded 
              using HTML5, CSS3, Javascript, Python's Django, SVG, MYSQL and designed using Figma.
-             I'm confident in tutoring  mathematics and programming as my major areas of specialization.
+             I offer tutoring in mathematics and programming as my major areas of specialization.
             </p>
           </div>
         </div>
         <div class="display">
           <div class="screen">
            <div class="prof">
-             <h4>My proficiency 'weighs' as:</h4>
+             <h4>My proficiency:</h4>
              <ul>
-               <li>Teaching---------------------90%</li>
-               <li>Html&Css--------------------85%</li>
-               <li>Django------------------------70%</li>
-               <li>Figma--------------------------70%</li>
-                <li>Python-------------------------60%</li>
-               <li>Javascript---------------------60%</li>
-                <li>MySQL--------------------------60%</li>
-               <li>Heroku--------------------------60%</li>
-                <li>flutter&Dart-------------------40%</li>
-               
-
+               <li>Teaching-----<span>-</span>----------90%</li>
+               <li>Html&Css----<span>-</span>----------85%</li>
+               <li>Django--------<span>-</span>----------70%</li>
+               <li>Figma---------<span>-</span>-----------70%</li>
+                <li>Python----------<span>-</span>---------60%</li>
+               <li>Javascript-------<span>-</span>--------60%</li>
+                <li>MySQL----------<span>-</span>---------60%</li>
+               <li>Heroku-----------<span>-</span>---------60%</li>
+                <li>flutter&Dart----<span>-</span>----------40%</li>
              </ul>
            </div>
-           {% comment %} <div class="services">
-              <ul>
-                <li>Tutoring </li>
-                <li>App/Web design</li>
-                <li>App/Web Development</li>
-                <li>Video Production</li>
-                <li>Graphic designs</li>
-              </ul>
-           </div> {% endcomment %}
           </div>
           <div class="controls">
             <ul>
               <li><button onclick = "skillOn()" id = "skills">skills</button></li>
-              <li><button onclick ="serviceOn()" id  = "service">services</button></li>
+              <li><button onclick ="notice()" id  = "service">services</button></li>
             </ul>
           </div>
           <button onclick="loadForm()" id = "enquiry">Let's Connect</button>
