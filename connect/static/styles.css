@@ -22,6 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 10px;
     
 }
 
@@ -33,6 +34,7 @@ form{
     justify-content: space-between;
     text-align:center;
     height: 25vh;
+    margin: 5px;
 
 }
 form input{
